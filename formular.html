@@ -1,0 +1,39 @@
+<html>
+<head>
+  <meta charset="UTF-8"
+</head>
+
+<body>
+
+  <form action="einfuegen.php" method="POST">
+
+    Name:<br/>
+    <input type="text" name="Name" /><br/>
+
+    Wohnort:<br/>
+    <select size="1" name="Wohnort">
+      <option>Mannheim</option>
+      <option>Heidelberg</option>
+      <option>Ludwigshafen</option>
+      <option>Ihre Stadt nicht da? Andere...</option>
+    </select><br/>
+
+    Geschlecht:<br/>
+    <input type="radio" name="Geschlecht" value="Frau" />Frau
+    <input type="radio" name="Geschlecht" value="Herr" />Herr
+    <br/>
+	
+	Kunde:<br/>
+	<input type="checkbox" name="Kunde"  value="ja" /><br/>
+	
+	Kommentar:<br/>
+	<textarea cols="40" rows="3" name="Kommentar">Bitte Kommentar angeben</textarea><br/>
+	
+	<input type="submit" value="Senden"/>
+	<input type="reset" value="Löschen"/>
+	
+  </form>
+
+</body>
+  
+</html>
